@@ -28,6 +28,7 @@ export class TodoItemComponent implements OnInit {
     
     // deleting the todo..sending the event upwards and catching the event the parent component
     this.deleteTodo.emit(todo);
+    
   }
 
   onToggle(todo){
